@@ -1,0 +1,7 @@
+{
+  "name": "Amoxtli",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
