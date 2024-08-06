@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Matemáticas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-img src='./../../assets/intro/a.png'></ion-img>
+  <br>
+  <h1><ion-text color="warning"><ion-icon name="bowling-ball"></ion-icon></ion-text>Ecuaciones cuadráticas</h1>
+  <br>
+  <video class="fp_docs_player" id="fp_docs_player_0" controls style="width: 100%; height: 25%;">
+  <source src='assets/mate/cuadraticas.mp4' type="video/mp4" title="1080p">
+  </video><br>
+  <div class="centrar-boton-ionic">
+  <ion-button color="warning" [routerLink]="'/tutorial'" [routerLinkActive]="'active'">Regresar a secundaria</ion-button><br>
+  <ion-button color="warning" [routerLink]="'/prim'" [routerLinkActive]="'active'">Volver a primaria</ion-button><br>
+</div>
+  <p> Amoxtlic</p>
+  
+</ion-content>

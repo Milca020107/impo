@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Secundaria</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list-header color="light">
+    <ion-label>Comencemos el viaje...</ion-label><br>
+  </ion-list-header>
+ 
+  <ion-img src='./../../assets/intro/carretera.jpeg' alt="1"> </ion-img> 
+  <h4>      En esta sección encontrarás videos explicando los distintos temas 
+    que vendrán en el examen de certificación de secundaria.
+  </h4>
+  
+  <ion-img src='./../../assets/intro/libro.png'  style="width:25%" alt="2"></ion-img>
+
+  <h4>      Se divide en 3 áreas generales. Lengua y comunicación, matemáticas y ciencias. En esta versión de la aplicación verás el tema de 
+    matemáticas. Para consultar el temario de ciencias descarga la app de "Amoxtlic-ciencia" y para lengua y comunicación: "Amoxtlic-español". Podrás ver los videos las veces que consideres
+    necesarias. ¡Todo el equipo de Amoxtlic se encuentra a tus órdenes!
+  </h4>
+  <h1 > ¡Adelante!</h1><br>
+  
+
+
+
+<ion-img src='./../../assets/intro/eth.jpeg'  style="width:70%" alt="3"></ion-img><br>
+  
+  <div class="centrar-boton-ionic">
+    <ion-button class="button button-block button-positive" color="warning" style="width:200px;" [routerLink]="'/math'" [routerLinkActive]="'active'">
+     
+      Matemáticas
+    </ion-button>
+</div><br>
+
+
+
+
+<p> Amoxtlic</p>
+
+</ion-content>
